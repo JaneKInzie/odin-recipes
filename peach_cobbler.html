@@ -1,35 +1,71 @@
 <!DOCTYPE html>
 <html lang="en"/>
-<meta charset="UTF-8"/>
-    <title>peach_cobbler</title>
-    <body>
-        <h1>Peach Cobbler</h1>
-        <img src="images/peach_cobbler.jpg" alt="Peach Cobbler in bowl">
-        
-        <main>
-            <p>This quick and easy peach cobbler recipe is a crowd pleaser. I learned this recipe while working at a North Carolina style barbeque restaurant
-                where it was a staple dessert item. It is one of my family's favorite desserts, especially when served with vanilla ice cream.</p>
-        <h4>Ingredients</h4>
-            <ul>
-                <li>Two 29 ounce cans sliced peaches in syrup</li>
-                <li>One cup of milk</li>
-                <li>One heaping cup self-rising flour</li>
-                <li>One heaping cup of sugar</li>
-                <li>One stick of butter</li>
-                <li>Vanilla ice cream (optional)</li>
-            </ul>
-        <h4>Steps</h4>
-            <ol>
-                <li>Preheat oven to 350 degrees Fahrenheit.</li>
-                <li>While oven is preheating, put stick upf butter into casserole dish, and put in oven to melt butter.</li>
-                <li>Drain peaches well. Check the butter.</li>
-                <li>In large bowl, add sugar, self-rising flour, and milk. Check the butter.</li>
-                <li>Whisk together batter. When butter is melted, emove casserole dish from oven.</li>
-                <li>Pur batter into center of dish. Butter will spread and lay on top of batter.</li>
-                <li>Starting at edges and working in, add peaches one or two slices at a time. Peaches will push butter toward center.</li>
-                <li>Baker for one hour or until golden brown.</li>
-                <li>Let cool slightly, then serve with ice cream.</li>
-            </ol>
-        </main>
-    </body>
-    </html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>cobbler_recipe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .background {
+        background-color: #f6f7f8;
+    }
+    .cobbler {
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title {
+        color:#a1459d;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        font-weight: 600px;
+        }
+    .subtitle {
+        color:#a1459d;
+        font-size: 35px;
+        }
+    .write_up {
+        color:#4b49b4;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        }
+    .to_do {
+        color:rgb(57, 66, 90);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <body class="background"></body>
+    <img class="cobbler" src="images/peach_cobbler.jpg" alt="Peach Cobbler in bowl">
+    <div class="title">Peach Cobbler</div>
+    <main>
+        <p class="write_up">This quick and easy peach cobbler recipe is a delight. I learned this recipe while working at a North Carolina style barbeque restaurant
+                where it was a staple dessert item. It is one of my family's favorite desserts, especially when topped with vanilla ice cream.</p>
+        <div class="subtitle">Ingredients</div>
+        <ul><div class="to_do">
+            <li>Two 29 ounce cans sliced peaches in syrup</li>
+            <li>One cup of milk</li>
+            <li>One heaping cup self-rising flour</li>
+            <li>One heaping cup of sugar</li>
+            <li>One stick of butter</li>
+            <li>Vanilla ice cream (optional)</li>
+        </div></ul>
+        <div class="subtitle">Steps</div>
+        <ol><div class="to_do">
+            <li>Preheat oven to 350 degrees Fahrenheit.</li>
+            <li>While oven is preheating, put stick upf butter into casserole dish, and put in oven to melt butter.</li>
+            <li>Drain peaches well. Check the butter.</li>
+            <li>In large bowl, add sugar, self-rising flour, and milk. Check the butter.</li>
+            <li>Whisk together batter. When butter is melted, emove casserole dish from oven.</li>
+            <li>Pur batter into center of dish. Butter will spread and lay on top of batter.</li>
+            <li>Starting at edges and working in, add peaches one or two slices at a time. Peaches will push butter toward center.</li>
+            <li>Baker for one hour or until golden brown.</li>
+            <li>Let cool slightly, then serve topped with ice cream.</li>
+        </div></ol>
+    </main>
+</body>
+</html>
